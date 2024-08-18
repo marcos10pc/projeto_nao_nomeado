@@ -1,12 +1,35 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title> mudar titulo depois </title>
 		%sveltekit.head%
 	</head>
-	<body data-sveltekit-preload-data="hover">
+	<body class="bg-cyan-200" data-sveltekit-preload-data="hover">
+
+		<div class="topnav">
+			<a class="active" href="/">Home</a>
+			<a href="/undefined">Botao_Extra</a>
+		</div>
+
 		<div style="display: contents">%sveltekit.body%</div>
+		<footer>
+			<div class="footer">
+			<div class="row">
+			<ul>
+			<li><a href="#">Link Generico</a></li>
+			<li><a href="#">Link Generico</a></li>
+			<li><a href="#">Link Generico</a></li>
+			</ul>
+			</div>
+			
+			<div class="row">
+			Nenhum Direito Reservado TM 
+			</div>
+			</div>
+		</footer>		
+			
 	</body>
 </html>
